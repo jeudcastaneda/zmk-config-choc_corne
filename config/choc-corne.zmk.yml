@@ -1,0 +1,11 @@
+file_format: "1"
+id: choc-corne
+name: choc-corne
+type: shield
+url: https://github.com/Putitii/zmk-choc_corne
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - choc-corne_left
+  - choc-corne_right
