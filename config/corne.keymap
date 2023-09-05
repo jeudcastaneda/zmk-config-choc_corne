@@ -6,7 +6,7 @@
 #define LOWER 1
 #define RAISE 2
 #define TOGGLE 3
-#define L4 4
+#define MEDIA 4
 #define NUMPAD 5
 
 &lt {
@@ -82,9 +82,9 @@
                         >;
                 };
 
-                layer_4 {
+                media_layer {
 			bindings = <
-                &none   &bt BT_CLR  &sk LALT    &sk LCTRL   &sk LSHFT   &bt BT_NXT         &trans    &trans      &kp C_BRI_DN  &kp C_BRI_UP  &trans        &none   
+                &none   &bt BT_CLR  &sk LALT    &sk LCTRL   &sk LSHFT   &bt BT_NXT         &trans    &trans      &kp C_BRI_DEC &kp C_BRI_INC &trans        &none   
                 &none   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)   &kp LG(G)          &trans    &kp C_PP    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &none   
                 &none   &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(B)          &trans    &kp C_PREV  &kp C_NEXT    &trans        &kp LG(FSLH)  &none   
                                                 &trans      &trans      &trans             &trans    &trans      &trans
