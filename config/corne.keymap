@@ -67,7 +67,7 @@
 &none  &kp Q        &kp W       &kp E        &kp R                &kp T                         &kp Y                   &kp U                &kp I        &kp O       &kp P            &none
 &none  &hm LGUI A   &hm LALT S  &hm LCTRL D  &hm LS(LA(LCTRL)) F  &hm LS(LA(LC(LEFT_GUI))) G    &hm LS(LA(LC(RGUI))) H  &hm LS(LA(RCTRL)) J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMI    &none
 &none  &hm LSHFT Z  &kp X       &kp C        &kp V                &kp B                         &kp N                   &kp M                &kp COMMA    &kp DOT     &hm RSHFT SLASH  &none
-                                &tm 0 ESC    &tm 1 TAB            &kp RET                       &kp SPACE               &kp BSPC             &tm 2 DEL
+                                &tm 3 ESC    &tm 1 TAB            &kp RET                       &kp SPACE               &kp BSPC             &tm 2 DEL
             >;
         };
 
